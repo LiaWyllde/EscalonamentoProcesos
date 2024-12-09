@@ -48,7 +48,7 @@ public class Grafo {
 		getControll().get(key).remove(dependencia);
 	}
 	
-	public void vizualizar() {
+	public void visualizar() {
 		for(String processo : getControll().keySet()) {
 			System.out.println(processo + " dependencias: " + getControll().get(processo));
 		}
